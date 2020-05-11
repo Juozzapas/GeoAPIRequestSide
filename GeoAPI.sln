@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoAPI", "WebApplication\GeoAPI.csproj", "{37F459DE-08E3-4ACC-83AB-8BF650826703}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web-api-nunit-test", "web-api-nunit-test\web-api-nunit-test.csproj", "{8BB9A761-8045-4A43-8272-E3ACBD176CE4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37F459DE-08E3-4ACC-83AB-8BF650826703} = {37F459DE-08E3-4ACC-83AB-8BF650826703}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37F459DE-08E3-4ACC-83AB-8BF650826703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F459DE-08E3-4ACC-83AB-8BF650826703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F459DE-08E3-4ACC-83AB-8BF650826703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F459DE-08E3-4ACC-83AB-8BF650826703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB9A761-8045-4A43-8272-E3ACBD176CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB9A761-8045-4A43-8272-E3ACBD176CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB9A761-8045-4A43-8272-E3ACBD176CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB9A761-8045-4A43-8272-E3ACBD176CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FF1C099-20E5-491F-A078-F28C9002E711}
+	EndGlobalSection
+EndGlobal
